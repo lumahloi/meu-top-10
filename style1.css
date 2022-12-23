@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fugaz+One&display=swap');
+
+body {
+    background-color: black;
+    background-image: url(outros/wallpaper-netflix.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header, article {
+    background-color: white;
+    max-width: 850px;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 10px 10px 100px 10px rgba(0, 0, 0, 0.507);
+    margin: 50px auto;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 25px;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(202, 48, 28);
+    font-family: 'Fugaz One', cursive;
+    font-size: 2em;
+}
+
+* {
+    line-height: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-family: 'Fredoka One', cursive;
+    color: rgb(207, 54, 54);
+    font-size: 1.5em;
+}
+
+iframe {
+    width: 100%;
+}
+
+.tudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto {
+    padding-left: 30px;
+}
+
+a#alignleft {
+    float: left;
+}
+
+a#alignright {
+    float: right;
+}
